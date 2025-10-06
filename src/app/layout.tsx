@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ClerkProvider clerkJSUrl="http://localhost:4000/npm/clerk.browser.js">
+        <ClerkProvider clerkJSUrl="https://clerk.clerkstage.dev/npm/@clerk/clerk-js@canary/dist/clerk.browser.js">
           {children}
         </ClerkProvider>
       </body>
